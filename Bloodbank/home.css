@@ -1,0 +1,89 @@
+*{
+	padding:0;
+	margin:0;
+	text-decoration:none;
+	list-style:none;
+	box-sizing: border-box;
+}
+body{
+	font-family: montserrat;
+}
+nav{
+	background: #0082e6;
+	height:80px;
+	width:100%;
+}
+label.logo{
+	color:white;
+	font-size:35px;
+	line-height:80px;
+	padding: 0 100px;
+	font-weight:bold;
+
+}
+nav ul{
+	float:right;
+	margin-right:20px;
+}
+
+nav ul li{
+	display:inline-block;
+	line-height:80px;
+	margin :0 5px;
+}
+nav ul li a{
+	color:white;
+	font-size:17px;
+	padding :7px 13px;
+	border-radius:3px;
+	text-transform: uppercase;
+}
+a.active,a.hover{
+	background: #1b9bff;
+    transition:.5s;
+}
+.search{
+	margin-top:10px;
+}
+table,th,td{
+	border: 1px solid black;
+    border-collapse: collapse;
+    margin-top:2%;
+     
+}
+td{
+	
+padding-left:30px;
+}
+.colo{
+	background: linear-gradient(57deg, #00c6a7, #1e4d92);
+	padding:25px;
+	color:white;
+	border:1px solid white;
+	border-style:outset;
+	border-collapse: collapse;
+	float:left;
+	margin-left:20%;
+	}
+	.group{
+		margin-top:10%;
+        width:30%;
+	}
+	table .group{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th .group{
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+  width:200px;
+  text-align:center;
+
+}
+
+tr:nth-child(even) .group{
+  background-color: #dddddd;
+}

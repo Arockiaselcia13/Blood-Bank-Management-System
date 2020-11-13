@@ -1,0 +1,92 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.center{
+	text-align:center;
+	padding:20px;
+	height:400px;
+	width:380px;
+	border:3px solid #E6E2D8;
+	float:left;
+	margin-left:35%;
+	margin-top:5%;
+	background: #E6E2D8;
+}
+.rcenter{
+	text-align:center;
+	padding:20px;
+	height:530px;
+	width:400px;
+	border:3px solid #E6E2D8;
+	float:left;
+	margin-left:35%;
+	margin-top:3%;
+	background: #E6E2D8;
+}
+h1{
+	padding: 10px;
+	color:red;
+}
+h3{
+	padding: 10px;
+}
+h2{
+	padding:12px;
+	color:#6C69DE;
+}
+input[type=radio]{
+
+}
+
+input[type=text]{
+  width: 75%;
+  margin:10px;
+  padding: 10px;
+  margin-left: 25px;
+  border: 1px solid #ccc;
+  border-radius: 4px;  
+}
+input[type=email]{
+  width: 75%;
+  margin:10px;
+  padding: 10px;
+  margin-left: 25px;
+  border: 1px solid #ccc;
+  border-radius: 4px;  
+}
+
+input[type=password]{
+  width: 75%;
+  margin:10px;
+  padding: 10px;
+  margin-left: 25px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.btn{
+  width:30%;
+  background: #f02961;
+  color:#fff;
+  float:left;
+  margin:20px;
+  padding: 5px;
+  border-radius: 4px;
+  margin-left:35%;
+}
+
+.bld{
+	height:100%;
+	width:100%;
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(bloodlogo.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+#blood{
+	margin-top:3%;
+}
+select,option{
+	width:280px;
+	height:30px;
+}
